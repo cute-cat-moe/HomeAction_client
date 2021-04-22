@@ -1,0 +1,39 @@
+$opacity-primary: 87%;
+$opacity-secondary: 60%;
+$opacity-disabled: 38%;
+
+$color-primary: #D32F2F;
+$color-primary-account: #546E7A;
+$color-primary-convener: #1976D2;
+$color-primary-mission: #00897B;
+
+.opacity-primary {
+  opacity: $opacity-primary;
+}
+
+.opacity-secondary {
+  opacity: $opacity-secondary;
+}
+
+.opacity-disabled {
+  opacity: $opacity-disabled;
+}
+
+.ellipsis-one {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ellipsis-two {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.text-content-primary {
+  color: $color-primary;
+}
